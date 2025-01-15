@@ -176,3 +176,32 @@ footer input[type="text"], footer input[type="email"]{
     margin-bottom: 20px;
     border: none;
 }
+@media screen and (max-width:576px) {
+    .skills-container{
+        
+        flex-direction: column;
+       
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"]{
+        width: calc(100% - 40px);
+    }
+    .about{
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+
+    
+}
