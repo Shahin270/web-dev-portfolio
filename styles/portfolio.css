@@ -176,7 +176,7 @@ footer input[type="text"], footer input[type="email"]{
     margin-bottom: 20px;
     border: none;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:500px) {
     .skills-container{
         
         flex-direction: column;
