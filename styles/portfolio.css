@@ -202,6 +202,24 @@ footer input[type="text"], footer input[type="email"]{
     .about-items{
         flex-direction: column;
     }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav ul{ 
+        flex-direction: column;
+        gap: 20px;
+    }
+
 
     
 }
